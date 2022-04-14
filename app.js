@@ -2,7 +2,7 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-
+const port = process.env.port;
 
 const ejs = require("ejs");
 const res = require("express/lib/response");
